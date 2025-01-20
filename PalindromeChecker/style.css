@@ -1,0 +1,57 @@
+.container {
+    text-align: center;
+    width: 400px;
+    margin:  auto;
+    margin-top: 100px;
+}
+.palindrome-div {
+    border:  2px solid rgb(59, 2, 61);
+    border-radius: 15px;
+    padding: 20px;
+}
+label {
+    margin-bottom: 15px;
+    color: gray;
+    font-size: 18px;
+}
+.palindrome-input {
+    border: none;
+    border-bottom: 2px solid rgb(102, 5, 105);
+    margin-top: 20px;
+    color: green;
+}
+.palindrome-input:focus {
+    outline: none;
+}
+.palindrome-btn {
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(190, 47, 195);
+    color: white;
+    transition: 0.3s;
+}
+.palindrome-btn:hover {
+    transform: translateY(-2px);
+    cursor: pointer;
+}
+.results-div {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.hidden {
+    display: none;
+}
+.palindrome-definition-div {
+    margin-top: 20px;
+    border:  2px solid rgb(59, 2, 61);
+    border-radius: 15px;
+    padding: 20px;
+    background-color: greenyellow;
+    box-shadow: 0 5px 6px blue;
+}
+.palindrome-definition-div dfn {
+    color: rgb(59, 2, 61);
+    font-weight: bold;
+}
