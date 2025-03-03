@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      football team cards
+    </title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 class="title">Team stats</h1>
+    <main>
+      <div class="team-stats">
+        <p>Team: <span id="team"></span></p>
+        <p>Sport: <span id="sport"></span></p>
+        <p>Year: <span id="year"></span></p>
+        <p>Head coach: <span id="head-coach"></span></p>
+      </div>
+      <label class="options-label" for="players">Filter Teammates:</label>
+      <select name="players" id="players">
+        <option value="all">All Players</option>
+        <option value="nickname">Nicknames</option>
+        <option value="forward">Position Forward</option>
+        <option value="midfielder">Position Midfielder</option>
+        <option value="defender">Position Defender</option>
+        <option value="goalkeeper">Position Goalkeeper</option>
+      </select>
+      <div class="cards" id="player-cards">
+        <!-- Player Cards for Morocco Team -->
+        <div class="player-card">
+          <h2>Yassine Bounou</h2>
+          <p>Position: goalkeeper</p>
+          <p>Number: 1</p>
+          <p>Nickname: Bono</p>
+        </div>
+        <div class="player-card">
+          <h2>Achraf Hakimi</h2>
+          <p>Position: defender</p>
+          <p>Number: 2</p>
+          <p>Nickname: The Rocket</p>
+        </div>
+        <div class="player-card">
+          <h2>(Captain) Romain Saïss</h2>
+          <p>Position: defender</p>
+          <p>Number: 6</p>
+          <p>Nickname: The Wall</p>
+        </div>
+        <div class="player-card">
+          <h2>Noussair Mazraoui</h2>
+          <p>Position: defender</p>
+          <p>Number: 3</p>
+        </div>
+        <div class="player-card">
+          <h2>Sofyan Amrabat</h2>
+          <p>Position: midfielder</p>
+          <p>Number: 4</p>
+          <p>Nickname: The Gladiator</p>
+        </div>
+        <div class="player-card">
+          <h2>Azzedine Ounahi</h2>
+          <p>Position: midfielder</p>
+          <p>Number: 8</p>
+        </div>
+        <div class="player-card">
+          <h2>Hakim Ziyech</h2>
+          <p>Position: midfielder</p>
+          <p>Number: 7</p>
+          <p>Nickname: The Magician</p>
+        </div>
+        <div class="player-card">
+          <h2>Sofiane Boufal</h2>
+          <p>Position: forward</p>
+          <p>Number: 9</p>
+          <p>Nickname: The Artist</p>
+        </div>
+        <div class="player-card">
+          <h2>Abderrazak Hamdallah</h2>
+          <p>Position: forward</p>
+          <p>Number: 10</p>
+          <p>Nickname: The Bomber</p>
+        </div>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
